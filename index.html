@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Library</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css">    
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            Acesso
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal">Login</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal2">Cadastrar</a>                            
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br><br><br><br>
+        <!-- Products -->
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="img/book1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">The Lord of the Rings - The Return of the King</h4>
+                        <p class="form-text text-muted">R$ 32,00</p>
+                        <p class="card-text">
+                            Gandalf e Pippin entram na cidade de Minas Tirith, onde se encontram com Denethor, regente do reino de Gondor. Gandalf o avisa da guerra próxima, e o regente pede a ajuda de Rohan, mas revela seu rancor por Aragorn, que, sendo descendente direto do último rei, é o herdeiro legítimo do trono de Gondor. Merry, entretanto, permanece com os rohirrim, para servir ao rei Théoden, que reune todos os guerreiros aptos de seu reino e parte para a guerra em Minas Tirith. Junto com ele vão Aragorn, Legolas e Gimli.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">Detalhes</button>
+                        <button type="button" class="btn btn-outline-success" disabled>Alugar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="img/book2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Harry Potter And The Prisoner Of Azkaban</h4>
+                        <p class="form-text text-muted">R$ 20,00</p>
+                        <p class="card-text">
+                            Harry volta para a casa de seus tios, os Dursley, onde vê no jornal dos trouxas que um presidiário chamado Sirius Black fugiu. Quando a irmã de seu tio, Guida, os visita e começa a insultar os pais de Harry, ele involuntariamente a transforma em um balão, o que o faz fugir de casa e ser resgatado pelo Nôitibus Andante. Ele viaja até o Beco Diagonal, onde encontra Cornélio Fudge, o Ministro da Magia, que pede a Harry que permaneça no local até o começo das aulas em Hogwarts.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">Detalhes</button>
+                        <button type="button" class="btn btn-outline-success" disabled>Alugar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="img/book3.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Drácula</h4>
+                        <p class="form-text text-muted">R$ 23,00</p>
+                        <p class="card-text">
+                            A história é contada em formato epistolar, cujos narradores são protagonistas do romance, e, ocasionalmente, suplementadas com recortes de jornais referentes a eventos não diretamente testemunhados. Os eventos retratados no romance ocorrem em ordem cronológica e em grande parte na Inglaterra e na Transilvânia durante a década de 1890. Tudo ocorre dentro do mesmo ano, entre 3 de maio e 6 de novembro. Uma nota curta situa-se no capítulo final escrita sete anos após os eventos descritos na obra.                        
+                        </p>
+                        <button type="button" class="btn btn-outline-info">Detalhes</button>
+                        <button type="button" class="btn btn-outline-success" disabled>Alugar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Modal Login -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">Nós nunca compartilharemos seu email com ninguém.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <center>
+                <div class="form-check">
+                    <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    Ficar conectado
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-success">Login</button></center>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Register -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModal2Label">Cadastrar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        <small id="emailHelp" class="form-text text-muted">Nós nunca compartilharemos seu email com ninguém.</small>
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleInputName1">Nome</label>
+                            <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Nome Completo">    
+                        </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Digite sua Senha</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleInputPassword1">Confirme sua Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirme a Senha">
+                        </div>
+                    <center>
+
+                    <button type="submit" class="btn btn-success">Cadastrar</button></center>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+    //
+});
+</script>
+</body>
+</html>
